@@ -38,7 +38,11 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
 
+    - name: Setup k6 CLI
+      uses: grafana/setup-k6-action@v1
+
     - name: Run k6 Load Test
-      uses: grafana/k6-action@v1
+      uses: grafana/run-k6-action@v1
       with:
-        filename: performance_tests/load_test.js
+        path: performance_tests/load_test.js
+
