@@ -1,4 +1,5 @@
 # Advanced API Automation & Performance Testing Framework
+[![API & Performance Automation Pipeline](https://github.com/Panosthevl/api-performance-test-framework/actions/workflows/ci-cd-pipeline.yml/badge.svg)](https://github.com/Panosthevl/api-performance-test-framework/actions/workflows/ci-cd-pipeline.yml)
 
 A hybrid backend validation framework engineered to ensure functional correctness and infrastructure resilience under load. Built from scratch using **Python (Pytest & Playwright APIRequestContext)** for low-latency functional endpoint verification and **k6 (JavaScript)** for load profiling, fully orchestrated via **GitHub Actions CI/CD workflows**.
 
